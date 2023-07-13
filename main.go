@@ -111,6 +111,6 @@ func main() {
 	BgbkString, _ := decoder.Bytes(B)
 	// fmt.Printf("A: %v\n", A)
 	fmt.Printf("string(AgbkString): %v\n", string(AgbkString))
-	fmt.Printf("B: %v\n", B)
+	// fmt.Printf("B: %v\n", B)
 	fmt.Printf("string(BgbkString): %v\n", string(BgbkString))
 }
