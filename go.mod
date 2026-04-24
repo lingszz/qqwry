@@ -1,5 +1,8 @@
 module qqwry
 
-go 1.20
+go 1.26.2
 
-require golang.org/x/text v0.11.0
+require (
+    github.com/gin-gonic/gin v1.9.1
+    golang.org/x/text v0.14.0
+)
